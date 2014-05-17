@@ -1,15 +1,15 @@
-= Redmine Documents
+Redmine Documents
 
-== Install
+Install
 
 * Copy redmine_documents plugin to {RAILS_APP}/plugins on your redmine path
 
-== Uninstall
+Uninstall
 
 * rake redmine:plugins NAME= redmine_documents RAILS_ENV=production
 * rm -r plugins/redmine_documents
 
-== Requirements
+Requirements
 
 * Redmine 2.2.4.stable and above
 
