@@ -1,13 +1,13 @@
-= Redmine Issue History
+= Redmine Documents
 
 == Install
 
-* Copy redmine_issue_history plugin to {RAILS_APP}/plugins on your redmine path
+* Copy redmine_documents plugin to {RAILS_APP}/plugins on your redmine path
 
 == Uninstall
 
-* rake redmine:plugins NAME= redmine_issue_history RAILS_ENV=production
-* rm -r plugins/redmine_issue_history
+* rake redmine:plugins NAME= redmine_documents RAILS_ENV=production
+* rm -r plugins/redmine_documents
 
 == Requirements
 
