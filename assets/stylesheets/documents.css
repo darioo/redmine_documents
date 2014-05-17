@@ -1,0 +1,15 @@
+td.contentDoc.wiki {
+	width: 100%;
+        text-align: left;
+}
+
+td.subjectDoc {
+     min-width: 200px;
+text-align: left!important;
+}
+
+td.createdDoc {
+	min-width: 140px;
+}
+
+

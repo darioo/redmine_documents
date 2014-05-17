@@ -1,0 +1,8 @@
+<tr id="document-<%= document.id %>" class="<%= cycle('odd', 'even') %>">
+<td class="id"><%= link_to h(document.id), document_path(document) %></td>
+<td class="subjectDoc"><%= link_to h(document.title), document_path(document) %></td>
+<td class="contentDoc wiki">
+  <%= textilizable(truncate_lines(document.description), :object => document) %>
+</td>
+<td class="createdDoc"><%= format_time(document.updated_on) %></td>
+</tr>
