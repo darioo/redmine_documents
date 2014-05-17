@@ -1,6 +1,8 @@
 Redmine Documents
 =======
 
+This plugin reorganize view of documents and make it more usable.
+
 Install
 -------
 
