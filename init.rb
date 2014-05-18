@@ -3,7 +3,7 @@ require 'redmine'
 Redmine::Plugin.register :redmine_documents do
   name 'Redmine Comfortable Documents'
   author 'Kowalski Dariusz'
-  description 'This plugin improve of v  author_url 'https://github.com/darioo'
+  description 'This plugin improve of visualisation list of documents'
   author_url 'https://github.com/darioo'
   url "https://github.com/darioo/redmine_documents" if respond_to?(:url)
   version '1.0.0'
